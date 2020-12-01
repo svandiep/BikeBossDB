@@ -5,7 +5,7 @@
 -- Dumped from database version 10.11
 -- Dumped by pg_dump version 13beta3
 
--- Started on 2020-11-29 22:10:58
+-- Started on 2020-11-30 19:48:17
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -336,15 +336,44 @@ INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName",
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (5, 2599.00, 4, '606 NSW', 2099.00, 'Wheels');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (6, 59.99, 23, 'Carbon Cage', 20.99, 'Accessories');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (7, 1.99, 100, 'Energy Waffle', 0.99, 'Accessories');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (30, 75, 8, 'Giro Italia', 45, 'Handlebars');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (31, 14.95, 24, 'Cork Tape', 10, 'Handlebars');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (32, 39.95, 14, 'Fantasy Volee Ribbon', 24.12, 'Handlebars');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (33, 5499.99, 1, 'Laser Mia', 4200, 'Frame');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (981235, 19.99, 12, 'Tublito Race', 12.99, 'Tubes');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (34, 2749.99, 1, 'Supercorsa', 2100, 'Frame');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (564532, 3500.99, 5, 'Specialized Tarmac', 3009.99, 'Frame');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (35, 3950, 3, 'Merak', 2200, 'Frame');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (9, 129.99, 6, 'sram red', 89.99, 'Brakes');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (36, 54.95, 14, 'GP5000 Clincher', 35.00, 'Tires');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (37, 79.99, 4, 'Competition Tubular', 62.00, 'Tires');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (215643, 54.99, 1, 'Threaded Headset', 40.99, 'Handlebars');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (875465, 81.99, 1, 'Aluminum Stem', 65.99, 'Handlebars');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (38, 14.99, 21, 'Ultra Sport III', 8.65, 'Tires');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (39, 80.00, 4, 'Turbo Cotton', 65.00, 'Tires');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (10, 129.99, 1, 'Sram Force Brakes', 100.99, 'Brakes');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (11, 149.69, 12, 'Pista Crankset', 100.99, 'Brakes');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (8, 89.99, 3, 'Clip-on Aero Bars', 59.99, 'Handlebars');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (40, 70.00, 14, 'S-Works Clincher', 42.50, 'Tires');
 INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (12, 89.99, -1, 'Sram Red headset', 50.99, 'Frame');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (13, 19.99, 4, 'Eight Speed Chain', 12.50, 'Accessories');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (15, 21.95, 8, '9 Speed Chain', 12.50, 'Accessories');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (16, 22.95, 18, '10 Speed Chain', 12.50, 'Accessories');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (17, 24.95, 22, '11 Speed Chain', 15.50, 'Accessories');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (18, 22.50, 14, '12 Speed Chain', 34.95, 'Accessories');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (19, 249.99, 2, 'Record Brakes', 164.50, 'Brakes');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (20, 500.00, 2, 'Record Crankset', 375.5, 'Brakes');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (21, 660, 8, 'Nuetron Ultra', 480, 'Wheels');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (22, 2160, 4, 'Bora WTO 45 disc', 1500, 'Wheels');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (23, 2160, 4, 'Bora WTO 45', 1500, 'Wheels');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (24, 1142.92, 8, 'Shamal Ultra', 875, 'Wheels');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (25, 685, 8, 'Mavic Ksyrium Pro UST', 540, 'Wheels');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (26, 550, 4, 'Crossmax Elite', 470, 'Wheels');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (27, 8000, 6, '795 Blade', 7400, 'Frame');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (28, 5200, 3, '785 Huez RS Disc', 4400, 'Frame');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (29, 2200, 9, '765 Optimum', 1700, 'Frame');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (41, 50.50, 15, 'Turbo Pro Clincher', 24.50, 'Tires');
+INSERT INTO public."Item" ("ItemID", "RetailPrice", "StockQuantity", "ItemName", "CostPrice", "Category") VALUES (42, 80.00, 8, 'S-Works Turbo Track Tubular', 64.00, 'Tires');
 
 
 --
@@ -507,8 +536,14 @@ INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDIN
 INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Stinger', 5, 'Durando, CO, USA');
 INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Sram', 6, 'Denver, CO');
 INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Specialized', 7, 'Chicago, IL');
-INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Campagnolo', 8, 'Milan, Italy');
 INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Canyon', 9, 'Berlin, Germany');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('KMC', 10, 'Shenzhen, China');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Mavic', 12, 'Annecy, France');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Look', 13, 'Nevers, France');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Cinelli', 14, 'Milan, Italy');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('De Rosa', 15, 'Cusano Milanino, Italy');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Campagnolo', 8, 'Vicenza, Italy');
+INSERT INTO public."Vendor" ("VendorName", "VendorID", "VendorAdress") OVERRIDING SYSTEM VALUE VALUES ('Continental', 16, 'Hanover, Germany');
 
 
 --
@@ -558,6 +593,35 @@ INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERR
 INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (56, 6, 10);
 INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (57, 3, 11);
 INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (58, 6, 12);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (59, 10, 13);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (60, 10, 15);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (61, 10, 16);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (62, 10, 17);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (63, 10, 18);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (64, 8, 19);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (65, 8, 20);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (67, 8, 22);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (68, 8, 23);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (69, 8, 24);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (70, 12, 25);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (71, 12, 26);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (72, 13, 27);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (73, 13, 28);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (74, 13, 29);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (75, 14, 30);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (76, 14, 31);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (77, 14, 32);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (78, 14, 33);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (79, 14, 34);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (80, 15, 35);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (66, 8, 21);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (81, 16, 36);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (82, 16, 37);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (83, 16, 38);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (84, 7, 39);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (85, 7, 40);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (86, 7, 41);
+INSERT INTO public."Vendor_Items" ("Vendor_ItemsID", "VendorID", "ItemID") OVERRIDING SYSTEM VALUE VALUES (87, 7, 42);
 
 
 --
@@ -575,7 +639,7 @@ SELECT pg_catalog.setval('public."ItemList_ItemListID_seq"', 52, true);
 -- Name: Item_ItemID_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."Item_ItemID_seq"', 12, true);
+SELECT pg_catalog.setval('public."Item_ItemID_seq"', 42, true);
 
 
 --
@@ -602,7 +666,7 @@ SELECT pg_catalog.setval('public."Order_OrderID_seq"', 34, true);
 -- Name: Vendor_Items_Vendor_ItemsID_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."Vendor_Items_Vendor_ItemsID_seq"', 58, true);
+SELECT pg_catalog.setval('public."Vendor_Items_Vendor_ItemsID_seq"', 87, true);
 
 
 --
@@ -611,7 +675,7 @@ SELECT pg_catalog.setval('public."Vendor_Items_Vendor_ItemsID_seq"', 58, true);
 -- Name: Vendor_VendorID_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('public."Vendor_VendorID_seq"', 9, true);
+SELECT pg_catalog.setval('public."Vendor_VendorID_seq"', 16, true);
 
 
 --
@@ -878,7 +942,7 @@ GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public."Vendor" TO norm_user;
 GRANT SELECT,INSERT,DELETE,UPDATE ON TABLE public."Vendor_Items" TO norm_user;
 
 
--- Completed on 2020-11-29 22:11:09
+-- Completed on 2020-11-30 19:48:35
 
 --
 -- PostgreSQL database dump complete
